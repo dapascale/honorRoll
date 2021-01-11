@@ -13,3 +13,6 @@ form.addEventListener('submit', function(e) {
     // Direct user to subscription/plans page 
 })
 
+function redirect() {
+    window.location.href = 'https://dapascale.github.io/plans.html';
+}
