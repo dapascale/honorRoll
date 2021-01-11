@@ -5,12 +5,116 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Honor Roll</title>
 		<link rel="icon" href="./assets/favicon.ico" />
-		<link rel="stylsheet" href="./styles.css" />
+		<link rel="stylesheet" href="./styles.css" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap"
 			rel="stylesheet"
 		/>
 	</head>
-	<body></body>
+	<body>
+		<header>
+			<div class="wrapper">
+				<nav>
+					<div class="logo">
+						<a href="#home">Honor Roll</a>
+						<div class="logoHR">
+							<img src="./assets/tp.png" alt="Logo for Honor Roll" />
+						</div>
+					</div>
+					<div class="nav">
+						<ul>
+							<li>
+								<a href="#home">How It Works</a>
+							</li>
+							<li>
+								<a href="#home">Sustainability</a>
+							</li>
+							<li>
+								<a href="#home">Contact Sales</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<div class="wrapper">
+				<div class="homeTitle">
+					<h1>Welcome to the Honor Roll</h1>
+					<h2><a href="#home">Try premium free for 14 days</a></h2>
+				</div>
+				<div class="formCard">
+					<div class="formHeading">
+						<h3>Let's Get Started !</h3>
+					</div>
+					<p>Create an account</p>
+					<form id="form" class="signUp" action="POST">
+						<input
+							name="name"
+							type="text"
+							id="name"
+							placeholder="Name"
+							required
+						/>
+						<label for="name" class="srOnly">Full Name</label>
+						<input
+							name="email"
+							type="email"
+							id="email"
+							placeholder="Email"
+							required
+						/>
+						<label for="email" class="srOnly">Email</label>
+						<input
+							name="password"
+							type="password"
+							id="password"
+							placeholder="Password"
+							required
+						/>
+						<label for="password" class="srOnly">Password</label>
+						<input
+							name="password2"
+							type="password"
+							id="password2"
+							placeholder="Confirm Password"
+							required
+						/>
+						<label for="password2" class="srOnly">
+							Please re-type your password
+						</label>
+						<input
+							name="street"
+							type="text"
+							id="street"
+							placeholder="Street Address"
+							required
+						/>
+						<label for="street" class="srOnly">Street Address</label>
+						<div class="stateFlex">
+							<select name="state" id="state" placeholder="State" required>
+								<option value="NJ">NJ</option>
+								<option value="NY">NY</option>
+								<option value="PA">PA</option>
+							</select>
+							<label for="state" class="srOnly">State</label>
+							<input
+								name="zip"
+								type="text"
+								id="zip"
+								placeholder="Zip Code"
+								required
+							/>
+							<label for="zip" class="srOnly">Zip Code</label>
+						</div>
+						<button type="submit">Submit</button>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<p>Copyright &copy; 2021 Honor Roll</p>
+		</footer>
+	</body>
 </html>

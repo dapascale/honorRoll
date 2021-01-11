@@ -1,0 +1,583 @@
+/* Normalize Snippet */
+html {
+	line-height: 1.15;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+body {
+	margin: 0;
+}
+article,
+aside,
+footer,
+header,
+nav,
+section {
+	display: block;
+}
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+figcaption,
+figure,
+main {
+	display: block;
+}
+figure {
+	margin: 1em 40px;
+}
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+pre {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+a {
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+}
+abbr[title] {
+	border-bottom: none;
+	text-decoration: underline;
+	text-decoration: underline dotted;
+}
+b,
+strong {
+	font-weight: inherit;
+}
+b,
+strong {
+	font-weight: bolder;
+}
+code,
+kbd,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+dfn {
+	font-style: italic;
+}
+mark {
+	background-color: #ff0;
+	color: #000;
+}
+small {
+	font-size: 80%;
+}
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sub {
+	bottom: -0.25em;
+}
+sup {
+	top: -0.5em;
+}
+audio,
+video {
+	display: inline-block;
+}
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+img {
+	border-style: none;
+}
+svg:not(:root) {
+	overflow: hidden;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: sans-serif;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+button,
+input {
+	overflow: visible;
+}
+button,
+select {
+	text-transform: none;
+}
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+	-webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+fieldset {
+	padding: 0.35em 0.75em 0.625em;
+}
+legend {
+	box-sizing: border-box;
+	color: inherit;
+	display: table;
+	max-width: 100%;
+	padding: 0;
+	white-space: normal;
+}
+progress {
+	display: inline-block;
+	vertical-align: baseline;
+}
+textarea {
+	overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+[type="search"] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit;
+}
+details,
+menu {
+	display: block;
+}
+summary {
+	display: list-item;
+}
+canvas {
+	display: inline-block;
+}
+template {
+	display: none;
+}
+[hidden] {
+	display: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+html {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.srOnly {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+/* Project Color Codes */
+/* 
+White: #fff;
+Blue: #D5FFFB;
+Grey: #707070;
+Purple: #DD7FFF; 
+*/
+
+/* General Styling */
+
+body {
+	font-size: 62.5%;
+	font-weight: normal;
+	font-family: "Roboto", sans-serif;
+	line-height: 32px;
+	background-image: url(./assets/honorRollBG.gif);
+	background-size: contain;
+	background-repeat: repeat;
+}
+
+.wrapper {
+	max-width: 1200px;
+	width: 85%;
+	margin: 0 auto;
+}
+
+h2,
+h3 {
+	font-family: "Lobster", cursive;
+}
+
+h1,
+p,
+a,
+nav,
+ul,
+li,
+select,
+form,
+input,
+label {
+	font-family: "Roboto", sans-serif;
+}
+
+a,
+ul,
+li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+/* Header styles */
+
+header {
+	width: 100vw;
+	padding: 20px 0;
+	background-color: #d5fffb;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	width: 250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo a {
+	font-family: "Lobster", cursive;
+	font-size: 2.5rem;
+	color: #707070;
+	transition: color 0.3s ease-in-out;
+}
+
+.logo a:hover,
+.logo a:focus {
+	color: #dd7fff;
+}
+
+.logoHR {
+	width: 60px;
+	height: 40px;
+}
+
+.logoHR img {
+	width: 100%;
+}
+
+.nav {
+	width: 40%;
+}
+
+.nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li a {
+	color: #707070;
+	font-weight: 700;
+	font-size: 1rem;
+	letter-spacing: 1.2px;
+	transition: color 0.2s ease-in-out;
+}
+
+.nav li a:hover,
+.nav li a:focus {
+	color: #dd7fff;
+}
+
+/* Footer styles */
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #d5fffb;
+	height: 40px;
+	margin: 0;
+}
+
+footer p {
+	font-size: 0.8rem;
+	width: max-content;
+	margin: 0;
+}
+
+/* Landing Page Styles */
+
+main {
+	padding: 60px;
+}
+
+.homeTitle {
+	width: max-content;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2.8rem;
+	color: #707070;
+	margin: 0;
+}
+
+h2 {
+	width: max-content;
+	margin: 10px auto;
+	text-decoration: underline transparent 1px;
+	transition: all 0.2s ease-in-out;
+}
+
+h2 a {
+	color: #dd7fff;
+	padding: 5px;
+}
+
+h2:hover,
+h2:focus {
+	text-decoration: underline 1px #dd7fff;
+}
+
+.formCard {
+	height: max-content;
+	width: 450px;
+	margin: 40px auto;
+	border-radius: 5px;
+	box-shadow: 0px 12px 25px #b8b8b8;
+	background-color: #ffffff;
+}
+
+h3 {
+	font-size: 2rem;
+	color: #707070;
+}
+
+p {
+	font-size: 1rem;
+	color: #707070;
+	width: max-content;
+	margin: 20px auto;
+}
+
+.signUp {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	margin: 0 auto;
+}
+
+.formHeading {
+	background-color: #d5fffb;
+	width: 100%;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+input,
+select {
+	color: #707070;
+	margin: 15px auto;
+	padding: 5px 10px;
+	width: 320px;
+	height: 35px;
+	font-size: 1.2rem;
+	border-radius: 5px;
+	border: 2px solid #dd7fff;
+}
+
+.stateFlex {
+	display: flex;
+	justify-content: space-between;
+	width: 320px;
+	margin: 15px auto;
+}
+
+.stateFlex input {
+	width: 60%;
+	margin: 0;
+}
+
+.stateFlex select {
+	width: 25%;
+	margin: 0;
+}
+
+button {
+	height: 50px;
+	width: 160px;
+	margin: 20px auto 40px;
+	background-color: #dd7fff;
+	font-size: 1.5rem;
+	color: #ffffff;
+	border: solid 2px #dd7fff;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+button:hover,
+button:focus {
+	background-color: #fff;
+	color: #dd7fff;
+}
+
+/* Plans Page Styles */
+
+.planTitle {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	margin: 0 auto;
+}
+
+.planTitle h1 {
+	width: max-content;
+	margin: 0 auto;
+}
+
+.planTitle p {
+	width: 200px;
+	font-size: 0.6rem;
+	line-height: 15px;
+	margin: -10px auto 0;
+	text-align: center;
+}
+
+.planContent {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 65rem;
+}
+
+.card {
+	height: 100%;
+	width: calc(100% / 3 - 40px);
+	margin: 20px auto;
+	padding-bottom: 40px;
+	border-radius: 5px;
+	box-shadow: 0px 12px 25px #b8b8b8;
+	background-color: #ffffff;
+}
+
+.planImg {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.planImg:nth-of-type(2) {
+	width: 80%;
+}
+
+.planImg img {
+	width: 100%;
+}
+
+.planImg img.premium {
+	position: relative;
+	bottom: 10px;
+}
+
+.priceContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	width: 75%;
+	padding-bottom: 30px;
+	border-bottom: #dd7fff 2px solid;
+	border-radius: 2px;
+}
+
+p.price {
+	font-size: 5rem;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+span {
+	font-size: 1.4rem;
+	margin: 0 5px;
+}
+
+.card ul {
+	margin: 20px auto;
+	margin-right: 20px;
+	padding: 0;
+	width: 75%;
+	list-style-image: url(./assets/checkmark.png);
+}
+
+.card li {
+	font-size: 1rem;
+	line-height: 28px;
+	color: #707070;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.card button {
+	margin: 30px auto;
+}
